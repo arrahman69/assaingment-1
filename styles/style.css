@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #fff;
-    background-color: #121212;
+    background-color:#f5f8ff;
 }
 
 header.background-img {
@@ -82,26 +82,32 @@ header.background-img {
     text-align: center;
     padding: 60px 40px;
     background-color:#ddd6f8;
-    color: rgb(22, 22, 32);
-    width: 500px;margin: 0 auto;
+
+    
+    width: 750px;margin: 0 auto; 
 }
 
 .user-title {
     font-size: 36px;
     margin-bottom: 40px;
+    
 }
 
 .iteam-container {
     display: flex;
     justify-content: center;
     gap: 60px;
+    color: #f5f8ff;
+    
 }
 
 .user-iteam {
-    backgroundf;
+    
     padding: 40px;
     border-radius: 10px;
     color: #003cff;
+    
+    
 }
 
 .iteam-title {
@@ -167,12 +173,13 @@ header.background-img {
 }
 
 .focus-section {
-    display: flex;
-    justify-content: space-between;
+    
+    justify-content:;
     align-items: center;
     background: #ffffff;
     padding: 80px 40px;
     color: #000;
+    width: 900px ; margin: 0 auto;
 }
 
 .focus-content {
@@ -197,8 +204,9 @@ header.background-img {
 .touch-section {
     background-color:#f5f8ff;
     padding: 60px 40px;
-    text-align: center;
+    text-align: left;
     color: #000;
+    
 }
 
 .touch-title {
@@ -242,7 +250,7 @@ textarea {
 
 .footer-section {
     background: #ffffff;
-    padding: 40px;
+    padding: 45px;
     text-align: center;
     color: #000;
 }
