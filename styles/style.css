@@ -1,0 +1,257 @@
+/* Import Google Fonts fallback classes */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+header.background-img {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 24px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 80px;
+}
+
+.hero-content .content-title {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 40px;
+    background-color: #1f1f1f;
+}
+
+.action {
+    flex: 1;
+    padding: 20px;
+}
+
+.action-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.action-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.action-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.user-section {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #181818;
+}
+
+.user-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.iteam-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.user-iteam {
+    background: #2a2a2a;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.iteam-title {
+    font-size: 48px;
+    margin: 0;
+}
+
+.item-description {
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+.feedback-section {
+    padding: 60px 40px;
+    background-color: #1f1f1f;
+}
+
+.feedback-section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.feedback-containaer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feedback-iteam {
+    background: #2a2a2a;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.feedback-icon img {
+    width: 20px;
+}
+
+.feedback-title {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.customar-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.focus-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #121212;
+    padding: 80px 40px;
+}
+
+.focus-content {
+    flex: 1;
+}
+
+.focus-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.focus-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.focus-bg-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.touch-section {
+    background-color: #1f1f1f;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.touch-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.touch-containar form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.label-title {
+    text-align: left;
+    font-size: 16px;
+}
+
+input[type="email"], 
+input[type="text"], 
+textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-primary1 {
+    margin-top: 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-section {
+    background: #000;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-container .iteam a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
