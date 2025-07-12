@@ -54,12 +54,12 @@ header.background-img {
     justify-content: space-around;
     align-items: center;
     padding: 80px 40px;
-    background-color:rgb(225, 221, 241);
+    background-color:#f5f8ff;
     color: #000000;
 }
 
 .action {
-    flex: 1;
+    flex:1;
     padding: 20px;
 }
 
@@ -81,9 +81,9 @@ header.background-img {
 .user-section {
     text-align: center;
     padding: 60px 40px;
-    background-color: #c8c5ee;
+    background-color:#ddd6f8;
     color: rgb(22, 22, 32);
-    user
+    width: 500px;margin: 0 auto;
 }
 
 .user-title {
@@ -98,7 +98,7 @@ header.background-img {
 }
 
 .user-iteam {
-    background: #c8c5ee;
+    backgroundf;
     padding: 40px;
     border-radius: 10px;
     color: #003cff;
@@ -116,7 +116,7 @@ header.background-img {
 
 .feedback-section {
     padding: 60px 40px;
-    background-color: #c8c5ee;
+    background-color: #f5f8ff;
     color: #000000; 
     text-align: center;
 }
@@ -195,9 +195,10 @@ header.background-img {
 }
 
 .touch-section {
-    background-color:  #c8c5ee;
+    background-color:#f5f8ff;
     padding: 60px 40px;
     text-align: center;
+    color: #000;
 }
 
 .touch-title {
@@ -212,6 +213,7 @@ header.background-img {
     gap: 20px;
     max-width: 400px;
     margin: 0 auto;
+    
 }
 
 .label-title {
