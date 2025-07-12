@@ -7,12 +7,14 @@ body {
 }
 
 header.background-img {
-    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    background: url('../Assets/Hero-bg.png') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 40px;
+    color: #000000;
+    
 }
 
 .nav-content {
@@ -52,7 +54,8 @@ header.background-img {
     justify-content: space-around;
     align-items: center;
     padding: 80px 40px;
-    background-color: #1f1f1f;
+    background-color:rgb(225, 221, 241);
+    color: #000000;
 }
 
 .action {
@@ -78,7 +81,9 @@ header.background-img {
 .user-section {
     text-align: center;
     padding: 60px 40px;
-    background-color: #181818;
+    background-color: #c8c5ee;
+    color: rgb(22, 22, 32);
+    user
 }
 
 .user-title {
@@ -93,9 +98,10 @@ header.background-img {
 }
 
 .user-iteam {
-    background: #2a2a2a;
+    background: #c8c5ee;
     padding: 40px;
     border-radius: 10px;
+    color: #003cff;
 }
 
 .iteam-title {
@@ -110,12 +116,15 @@ header.background-img {
 
 .feedback-section {
     padding: 60px 40px;
-    background-color: #1f1f1f;
+    background-color: #c8c5ee;
+    color: #000000; 
+    text-align: center;
 }
 
 .feedback-section-title {
     font-size: 32px;
     margin-bottom: 40px;
+    background
 }
 
 .feedback-containaer {
@@ -126,7 +135,7 @@ header.background-img {
 }
 
 .feedback-iteam {
-    background: #2a2a2a;
+    background: #ffffff;
     padding: 30px;
     border-radius: 10px;
     width: 300px;
@@ -161,8 +170,9 @@ header.background-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #121212;
+    background: #ffffff;
     padding: 80px 40px;
+    color: #000;
 }
 
 .focus-content {
@@ -185,7 +195,7 @@ header.background-img {
 }
 
 .touch-section {
-    background-color: #1f1f1f;
+    background-color:  #c8c5ee;
     padding: 60px 40px;
     text-align: center;
 }
@@ -193,6 +203,7 @@ header.background-img {
 .touch-title {
     font-size: 32px;
     margin-bottom: 40px;
+    color: #000;
 }
 
 .touch-containar form {
@@ -228,9 +239,10 @@ textarea {
 }
 
 .footer-section {
-    background: #000;
+    background: #ffffff;
     padding: 40px;
     text-align: center;
+    color: #000;
 }
 
 .footer-logo {
@@ -241,17 +253,18 @@ textarea {
 .footer-description {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #aaa;
+    color: #000000;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
     gap: 40px;
+    color: #000;
 }
 
 .footer-container .iteam a {
-    color: #fff;
+    color:black
     text-decoration: none;
     font-size: 16px;
 }
