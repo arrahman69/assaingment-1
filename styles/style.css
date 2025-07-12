@@ -16,6 +16,9 @@ header.background-img {
     color: #000000;
     
 }
+.new{
+    color: #003cff;
+}
 
 .nav-content {
     display: flex;
